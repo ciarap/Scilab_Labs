@@ -1,0 +1,12 @@
+function[f] = linearSystem2()
+    funcprot(0)
+    disp('Program to solve linear system of three equations')
+    A=input('Enter matrix of coefficients: ')
+    b=input('Enter right hand column vector: ')
+    disp('Matrix of coefficients:')
+    disp(A)
+    disp('Right hand column vector:')
+    disp(b)
+    disp('The three solutions for this   system are:')
+    f=linsolve(A,b)
+endfunction
